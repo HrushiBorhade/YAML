@@ -18,5 +18,17 @@ tutorial:
       name: Extensible Markup Language #string [literal]
       type: good #string [literal]
       born: 1996 #number [literal]
+
+# Strings can also be written in blocks and be interpreted without the new line characters using the fold operator (greater than).
+message1: >
+  even though
+  it looks like
+  this is a multiline message,
+  it is actually not
+# Strings can be interpreted as blocks using the block (pipe) character.
+message2: |
+  this is
+  a real multiline
+  message
 author: HrushiBorhade
 published: true

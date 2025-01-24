@@ -1,0 +1,26 @@
+# A single YAML file can have more than one document. Each document can be interpreted as a separate YAML file which means multiple documents can contain the same or duplicate keys which are not allowed in the same document.
+
+# The beginning of a document is denoted by three hyphens —.
+---
+# document 1
+codename: YAML
+name: YAML ain't markup language
+release: 2001
+---
+# document 2
+uses:
+ - configuration language
+ - data persistence
+ - internet messaging
+ - cross-language data sharing
+---
+# document 3
+domain:
+ - devops
+ - dev
+tutorial:
+   name: yaml
+   type: awesome
+   rank: 1
+   born: 2001
+...
